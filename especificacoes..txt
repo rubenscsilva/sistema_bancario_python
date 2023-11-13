@@ -1,0 +1,14 @@
+Operação de depósito
+1. Deve ser possível depositar valores positivos para conta bancária
+2. A v1 do projeto trabalha com apenas 1 usuário ( sem a necessidade de identificar agência e conta)
+3. Todos depositos devem ser armazenados em uma váriavel e exibidos na operação de extrato
+
+Operação de saque
+1. Permitir 3 saques diários e limite máximo de R$500,00 por saque
+2. Caso o cliente não posua saldo em conta, o sistema deve exibir uma msg informando que não será possível sacar o dinheiro por falta de saldo
+3. Todos os saques devem ser armazenados em uma váriavel e exibidos na operação extrato
+
+Operação de extrato
+1. Listar todos os depósito e saques realizados na conta
+2. No fim da listagem deve ser exibido o saldo atgual da conta
+3. Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo: 1500.45 = R$ 1500.45
